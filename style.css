@@ -657,6 +657,47 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .taste-circle {
+        width: 240px;
+        height: 240px;
+    }
+
+    /* Redefine positions for smaller radius (120px) */
+    .taste-pos:nth-child(1) {
+        transform: rotate(-90deg) translate(120px) rotate(90deg);
+    }
+
+    .taste-pos:nth-child(2) {
+        transform: rotate(-30deg) translate(120px) rotate(30deg);
+    }
+
+    .taste-pos:nth-child(3) {
+        transform: rotate(30deg) translate(120px) rotate(-30deg);
+    }
+
+    .taste-pos:nth-child(4) {
+        transform: rotate(90deg) translate(120px) rotate(-90deg);
+    }
+
+    .taste-pos:nth-child(5) {
+        transform: rotate(150deg) translate(120px) rotate(-150deg);
+    }
+
+    .taste-pos:nth-child(6) {
+        transform: rotate(210deg) translate(120px) rotate(-210deg);
+    }
+
+    .taste-item {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
 /* Page Header */
 .page-header {
     background-color: var(--primary-color);
