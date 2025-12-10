@@ -67,6 +67,13 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.text-gradient-hero {
+    background: linear-gradient(135deg, #ffffff, var(--accent-light));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .btn {
     display: inline-block;
     padding: 12px 30px;
