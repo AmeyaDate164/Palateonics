@@ -669,10 +669,18 @@ body {
 /* Responsive Design */
 @media (max-width: 992px) {
 
+    .hero {
+        background-attachment: scroll;
+    }
+
     .grid-2-col,
     .grid-3-col,
     .grid-4-col {
         grid-template-columns: 1fr;
+    }
+
+    .product-image {
+        margin-bottom: 30px;
     }
 
     .hero-title {
